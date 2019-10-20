@@ -3,12 +3,10 @@ import React, { Component } from 'react';
 import { Provider, connect } from 'react-redux';
 import { createStore } from 'redux';
 import {
-  SafeAreaView,
   StyleSheet,
   ScrollView,
   View,
   Text,
-  StatusBar,
 } from 'react-native';
 
 import WelcomePage from './src/Components/WelcomePage';
